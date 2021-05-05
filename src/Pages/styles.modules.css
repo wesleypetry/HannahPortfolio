@@ -4,7 +4,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 600px;
 }
 
 .AboutDiv {
@@ -13,5 +13,19 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 600px;
 }
+
+.HeaderBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    height: 10vh;
+    top: 0;
+    z-index: 100000;
+  }
