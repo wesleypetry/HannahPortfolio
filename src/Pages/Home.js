@@ -1,4 +1,5 @@
 import React from "react";
+import './styles.modules.css';
 
 function Home(props) {
     return (
