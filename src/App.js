@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import HeaderBar from './Pages/HeaderBar';
+import Contact from './Pages/Contact';
+import Work from './Pages/Work';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
               <Switch>
                 <Route path="/" component={Home} exact/>
                 <Route path="/About" component={About} exact />
+                <Route path="/Contact" component={Contact} exact />
+                <Route path="/Work" component={Work} exact />
               </Switch>
           </BrowserRouter>
         </div>
