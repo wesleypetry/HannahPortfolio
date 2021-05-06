@@ -4,7 +4,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 550px;
 }
 
 .AboutDiv {
@@ -13,7 +13,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 550px;
 }
 
 .ContactDiv {
@@ -22,7 +22,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 550px;
 }
 
 .WorkDiv {
@@ -31,8 +31,27 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 550px;
 }
+
+.FooterBar {
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+  }
+
+  .Icons{
+    color: black;
+    padding: 40px;
+    
+  }
+
+  .Icons:hover{
+      color: #676767;
+  }
 
 .HeaderBar{
     display: flex;
