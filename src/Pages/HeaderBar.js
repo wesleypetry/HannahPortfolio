@@ -4,18 +4,26 @@ import './styles.modules.css';
 function HeaderBar(props) {
     return (
         <div className="HeaderBar">
-            <a href="/" className="H1_Link">
-                <h1 className="H1_Header">home</h1>
-            </a>
-            <a href="/About" className="H1_Link">
-                <h1 className="H1_Header">about</h1>
-            </a>
-            <a href="/Contact" className="H1_Link">
-                <h1 className="H1_Header">contact</h1>
-            </a>
-            <a href="/Work" className="H1_Link">
-                <h1 className="H1_Header">work</h1>
-            </a>
+            <div className="H1_Logo">
+                <h1 className="H1_Header">HANNAH BRASWELL</h1>
+            </div>
+            <div className="NavButtons">
+                <a href="/" className="H1_Link">
+                    <h1 className="H1_Header">HOME</h1>
+                </a>
+                <a href="/Work" className="H1_Link">
+                    <h1 className="H1_Header">WORK</h1>
+                </a>
+                <a href="/About" className="H1_Link">
+                    <h1 className="H1_Header">ABOUT</h1>
+                </a>
+                <a href="/Contact" className="H1_Link">
+                    <h1 className="H1_Header">CONTACT</h1>
+                </a>
+                <a href="/Resume" className="H1_Link">
+                    <h1 className="H1_Header">RESUME</h1>
+                </a>
+            </div>
         </div>
     )
 }

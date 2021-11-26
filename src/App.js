@@ -6,6 +6,7 @@ import HeaderBar from './Pages/HeaderBar';
 import FooterBar from './Pages/FooterBar';
 import Contact from './Pages/Contact';
 import Work from './Pages/Work';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/About" component={About} exact />
                 <Route path="/Contact" component={Contact} exact />
                 <Route path="/Work" component={Work} exact />
+                <Route path="/Resume" component={Resume} exact />
               </Switch>
           </BrowserRouter>
         </div>
