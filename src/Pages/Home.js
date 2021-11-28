@@ -18,15 +18,33 @@ function Home(props) {
             </div>
             <div className="WorkDiv">
                 <div className="WorkGrid">
-                    <div className="GridItem">AccruePartners Internship</div>
-                    <div className="GridItem">Pieper O'Brien Herr Internship</div>
-                    <div className="GridItem"></div>
-                    <div className="GridItem"></div>
-                    <div className="GridItem">User Experience Design</div>
-                    <div className="GridItem">Brand Creation and Design Concepts</div>
-                    <div className="GridItem">Clemson Ultimate Frisbee Website Concept</div>
-                    <div className="GridItem">Brand Creationand Design Concepts</div>
-                    <div className="GridItem"></div>
+                    <a href = "/Work">
+                        <div className="GridItem">AccruePartners Internship</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem">Pieper O'Brien Herr Internship</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem"></div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem"></div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem">User Experience Design</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem">Brand Creation and Design Concepts</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem">Clemson Ultimate Frisbee Website Concept</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem">Brand Creation and Design Concepts</div>
+                    </a>
+                    <a href = "/Work">
+                        <div className="GridItem"></div>
+                    </a>
                 </div>
             </div>
             <div className="AboutDiv">

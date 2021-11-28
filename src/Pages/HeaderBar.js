@@ -1,7 +1,9 @@
 import React from 'react';
 import './styles.modules.css';
 
+
 function HeaderBar(props) {
+
     return (
         <div className="HeaderBar">
             <div className="H1_Logo">
