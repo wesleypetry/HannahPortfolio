@@ -41,7 +41,8 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    grid-gap: 50px;
+    row-gap: 50px;
+    column-gap: 50px;
     height: 80%;
     width: 100%;
     justify-content: space-evenly;
