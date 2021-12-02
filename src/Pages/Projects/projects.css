@@ -1,3 +1,28 @@
-.UXDesignDiv {
-    background-color: pink;
+.container{
+    min-height:100vh;
+    height:100vh;
+    width:100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.colorheader {
+    display:flex;
+    background-color: #EBA362;
+    width:100%;
+    height:500px;
+}
+.headertext{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+    width:100%;
+    height:50%;
+}
+
+.casestudy{
+    width:50%;
+    display:flex;
+    flex-direction:column;
 }

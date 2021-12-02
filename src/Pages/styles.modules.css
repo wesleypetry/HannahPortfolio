@@ -30,13 +30,6 @@
     border-radius: 10pt;
 }
 
-.ArrowDown {
-    position: absolute;
-    bottom: 80px;
-    transform: scale(2);
-
-}
-
 .WorkDiv {
     height: 1150px;
     width: 100%;
@@ -61,7 +54,8 @@
     padding: 20px;
     font-size: 30px;
     color: transparent;
-    text-align: center;
+    display:flex;
+    align-items:center;
     height: 300px;
     width: 300px;
     border-radius: 10pt;
@@ -69,15 +63,13 @@
 
 .GridItem:hover {
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.5;
     color: white;
 }
 
 .AboutDiv {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    padding-left:10%;
     height: 600px;
     background-color: #E6D1F2;
 }
@@ -88,9 +80,8 @@
 }
 
 .AboutTitle {
-    font-size: 45pt;
+    font-size: 65pt;
     word-spacing: 10pt;
-    text-align: center;
     height: 35px;
 }
 

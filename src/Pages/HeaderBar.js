@@ -16,10 +16,7 @@ function HeaderBar(props) {
                 <a href="/About" className="H1_Link">
                     <h1 className="H1_Header">ABOUT</h1>
                 </a>
-                <a href="/Contact" className="H1_Link">
-                    <h1 className="H1_Header">CONTACT</h1>
-                </a>
-                <a href="/Resume" className="H1_Link">
+                <a href="/Hannah Braswell Resume.pdf" download className="H1_Link">
                     <h1 className="H1_Header">RESUME</h1>
                 </a>
             </div>
