@@ -34,7 +34,7 @@ function Home(props) {
                     <a href = "/Work">
                         <div className="GridItem"></div>
                     </a>
-                    <a href = "/Work">
+                    <a href = "/UXDesign">
                         <div className="GridItem">User Experience Design</div>
                     </a>
                     <a href = "/Work">

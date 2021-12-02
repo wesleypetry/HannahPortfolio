@@ -7,6 +7,7 @@ import FooterBar from './Pages/FooterBar';
 import Contact from './Pages/Contact';
 import Work from './Pages/Work';
 import Resume from './Pages/Resume';
+import UXDesign from './Pages/Projects/UXDesign';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/Contact" component={Contact} exact />
                 <Route path="/Work" component={Work} exact />
                 <Route path="/Resume" component={Resume} exact />
+                <Route path="/UXDesign" component={UXDesign} exact />
               </Switch>
           </BrowserRouter>
           <FooterBar/>
