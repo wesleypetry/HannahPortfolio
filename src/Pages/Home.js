@@ -60,7 +60,9 @@ function Home(props) {
                         <p>While completing studies as a student, I have found my love for front end web development and user experience. Currently, I am proficient in HTML5 and CSS3 and plan to learn JavaScript. In the web development course I completed in Fall 2019, I was able to learn the code and software and eventually complete a website for a student client. Before this course, I did not really know what I wanted to do as my future career with my degree. While learning about web development, I realized that I loved the coding aspect of it because it required structure and analytical thinking, and I was able to use my knowledge and experience in graphic design to be creative when developing sites. </p>
                     </div>
                 </div>
-                <div className="ContactDiv"></div>
+                <div className="ContactDiv">
+                    Contact Form
+                </div>
             </div>
         </div>
         

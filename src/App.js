@@ -22,8 +22,8 @@ function App() {
                 <Route path="/Resume" component={Resume} exact />
               </Switch>
           </BrowserRouter>
+          <FooterBar/>
         </div>
-        <FooterBar/>
       </div>
   );
 }
