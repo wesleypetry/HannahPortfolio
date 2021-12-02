@@ -11,9 +11,6 @@ function HeaderBar(props) {
             </div>
             <div className="NavButtons">
                 <a href="/" className="H1_Link">
-                    <h1 className="H1_Header">HOME</h1>
-                </a>
-                <a href="/Work" className="H1_Link">
                     <h1 className="H1_Header">WORK</h1>
                 </a>
                 <a href="/About" className="H1_Link">

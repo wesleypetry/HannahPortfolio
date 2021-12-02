@@ -1,11 +1,10 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Pages/Home';
+import Work from './Pages/Work';
 import About from './Pages/About';
 import HeaderBar from './Pages/HeaderBar';
 import FooterBar from './Pages/FooterBar';
 import Contact from './Pages/Contact';
-import Work from './Pages/Work';
 import Resume from './Pages/Resume';
 import UXDesign from './Pages/Projects/UXDesign';
 
@@ -16,10 +15,9 @@ function App() {
         <div className="Content">
           <BrowserRouter>
               <Switch>
-                <Route path="/" component={Home} exact/>
+                <Route path="/" component={Work} exact/>
                 <Route path="/About" component={About} exact />
                 <Route path="/Contact" component={Contact} exact />
-                <Route path="/Work" component={Work} exact />
                 <Route path="/Resume" component={Resume} exact />
                 <Route path="/UXDesign" component={UXDesign} exact />
               </Switch>
