@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.modules.css';
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 
 function Home(props) {
     return (
@@ -15,6 +16,9 @@ function Home(props) {
                         <p>text text text</p>
                     </div>
                 </div>
+                <a href = "/Work">
+                    <ArrowDropDownCircleIcon className="ArrowDown"/>
+                </a>
             </div>
             <div className="WorkDiv">
                 <div className="WorkGrid">
