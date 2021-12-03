@@ -21,42 +21,42 @@ function Work(props) {
                     <a href = "/Work">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>AccruePartners Internship</p>
+                                <p className="GridItemText">AccruePartners Internship</p>
                             </div>
                         </div>
                     </a>
                     <a href = "/Work">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>Pieper O'Brien Herr Internship</p>
+                                <p className="GridItemText">Pieper O'Brien Herr Internship</p>
                             </div>
                         </div>
                     </a>
                     <a href = "/UXDesign">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>User Experience Design</p>
+                                <p className="GridItemText">User Experience Design</p>
                             </div>
                         </div>
                     </a>
                     <a href = "/Work">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>Brand Creation and Design Concepts</p>
+                                <p className="GridItemText">Brand Creation and Design Concepts</p>
                             </div>
                         </div>
                     </a>
                     <a href = "/Work">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>Clemson Ultimate Frisbee Website Concept</p>
+                                <p className="GridItemText">Clemson Ultimate Frisbee Website Concept</p>
                             </div>
                         </div>
                     </a>
                     <a href = "/Work">
                         <div className="GridItem">
                             <div className="GridOverlay">
-                                <p>Brand Creation and Design Concepts</p>
+                                <p className="GridItemText">Brand Creation and Design Concepts</p>
                             </div>
                         </div>
                     </a>
