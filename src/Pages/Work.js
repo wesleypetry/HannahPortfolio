@@ -11,9 +11,8 @@ function Work(props) {
                 </div>
                 <div className="IntroTextDiv">
                     <div>
-                        <p>text text text</p>
-                        <p>text text text</p>
-                        <p>text text text</p>
+                        <p>I’m an aspiring user experience designer. I’m passionate about crafting user experiences and design systems for mobile and web products. </p>
+                        <p>I am currently finishing my Bachelor’s Degree in Graphic Communications at Clemson University and am graduating in May 2022. </p>
                     </div>
                 </div>
             </div>

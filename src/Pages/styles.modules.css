@@ -21,13 +21,14 @@
     padding-top: 25px;
     position: absolute;
     height: 400px;
+    text-align: left;
     background-color: lightgray;
     fill-opacity: 50%;
     width: 400px;
     height: 300px;
-    text-align: center;
-    align-items: center;
     border-radius: 10pt;
+    padding: 35px;
+    line-height: 22px;
 }
 
 .WorkDiv {
@@ -98,22 +99,24 @@
 .AboutDiv {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    height: 600px;
+    justify-content: flex-start;
+    padding-left: 200px;
+    height: auto;
     background-color: #E6D1F2;
 }
 
 .AboutText {
-    width: 800px;
+    width: 47%;
     height: 100%;
 }
 
 .AboutTitle {
-    font-size: 45pt;
+    font-size: 4.7em;
     word-spacing: 10pt;
-    text-align: center;
-    height: 35px;
+    text-align: left;
+    margin-top:30px;
+    margin-bottom:0px;
 }
 
 .paragraph{
@@ -121,9 +124,9 @@
     flex-direction:column;
     text-align:left;
     max-width:1000px;
-    padding-left: 25px;
-    padding-right: 25px;
     font-family: Roboto, sans-serif;
+    line-height: 22px;
+    text-indent: 20px;
     
 }
 

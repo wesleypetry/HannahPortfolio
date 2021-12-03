@@ -6,8 +6,8 @@ function UXDesign(props) {
         <div classname="container">
             <div className="colorheader">
                 <div className="headertext">
-                    <h1>Hannah's UXDesign Page</h1>
-                    <p>jlkhgfdfghgyftrdcf kvgcfxdcfjgvbh jhbvgcfxdcfvg hgjcfxdcfg</p>
+                    <h1>User Experience Design</h1>
+                    <h3>This project is a redesign of the Bank of America mobile app. </h3>
                 </div>
             </div>
             <div className="casestudy">
