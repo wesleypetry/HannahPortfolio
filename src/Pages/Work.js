@@ -18,31 +18,67 @@ function Work(props) {
             <div className="WorkDiv">
                 <div className="WorkGrid">
                     <a href = "/Work">
-                        <div className="GridItem">AccruePartners Internship</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>AccruePartners Internship</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem">Pieper O'Brien Herr Internship</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>Pieper O'Brien Herr Internship</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem"></div>
+                    <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p></p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem"></div>
+                    <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p></p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/UXDesign">
-                        <div className="GridItem">User Experience Design</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>User Experience Design</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem">Brand Creation and Design Concepts</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>Brand Creation and Design Concepts</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem">Clemson Ultimate Frisbee Website Concept</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>Clemson Ultimate Frisbee Website Concept</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem">Brand Creation and Design Concepts</div>
+                        <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p>Brand Creation and Design Concepts</p>
+                            </div>
+                        </div>
                     </a>
                     <a href = "/Work">
-                        <div className="GridItem"></div>
+                    <div className="GridItem">
+                            <div className="GridOverlay">
+                                <p></p>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>
