@@ -1,4 +1,82 @@
 .HomeDiv {
+<<<<<<< Updated upstream
+=======
+    height: 550px;
+    background-color: darkgray;
+    width: 100%;
+    text-align: center;
+}
+
+.IntroHeaderDiv {
+    font-size: 30pt;
+    text-align: right;
+    right: 150px;
+    top: 50px;
+    z-index: 10;
+    position: absolute;
+    word-spacing: 10pt;
+}
+
+.IntroTextDiv {
+    right: 100px;
+    top: 155px;
+    padding-top: 25px;
+    position: absolute;
+    height: 400px;
+    text-align: left;
+    background-color: lightgray;
+    fill-opacity: 50%;
+    width: 400px;
+    height: 300px;
+    border-radius: 10pt;
+    padding: 35px;
+    line-height: 22px;
+}
+
+.WorkDiv {
+    height: 1150px;
+    width: 100%;
+
+}
+
+.WorkGrid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 10px 10px auto;
+    padding: 10px;
+    row-gap: 30px;
+    column-gap: 0px;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.GridItem {
+    background-color: darkgray;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10pt;
+    background-image: url(./Images/random_pic.png);
+    background-size: 100%;
+    position: relative;
+
+}
+
+.GridOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10pt;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -9,11 +87,41 @@
 
 .AboutDiv {
     display: flex;
+<<<<<<< Updated upstream
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     height: 600px;
+=======
+    justify-content: flex-start;
+    padding-left: 200px;
+    height: 700px;
+    background-color: #E6D1F2;
+}
+
+.AboutText {
+    width: 47%;
+    height: 100%;
+}
+
+.AboutTitle {
+    font-size: 67pt;
+    word-spacing: 10pt;
+    text-align: left;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.paragraph{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+    max-width:1000px;
+    font-family: Roboto, sans-serif;
+    line-height: 22px;
+    
+>>>>>>> Stashed changes
 }
 
 .ContactDiv {
