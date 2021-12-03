@@ -1,5 +1,7 @@
 import React from "react";
 import './styles.modules.css';
+
+
 function Work(props) {
     return (
         <div>
@@ -31,20 +33,6 @@ function Work(props) {
                             </div>
                         </div>
                     </a>
-                    <a href = "/Work">
-                    <div className="GridItem">
-                            <div className="GridOverlay">
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href = "/Work">
-                    <div className="GridItem">
-                            <div className="GridOverlay">
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
                     <a href = "/UXDesign">
                         <div className="GridItem">
                             <div className="GridOverlay">
@@ -70,13 +58,6 @@ function Work(props) {
                         <div className="GridItem">
                             <div className="GridOverlay">
                                 <p>Brand Creation and Design Concepts</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href = "/Work">
-                    <div className="GridItem">
-                            <div className="GridOverlay">
-                                <p></p>
                             </div>
                         </div>
                     </a>
