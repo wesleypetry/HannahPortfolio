@@ -42,14 +42,15 @@
     display: grid;
     grid-template-columns: 10px 10px auto;
     padding: 10px;
-    row-gap: 30px;
-    column-gap: 0px;
+    row-gap: 10%;
+    column-gap: 10%;
     height: 80%;
     width: 100%;
     justify-content: space-around;
     position: relative;
 
 }
+
 
 .GridItem {
     background-color: darkgray;
@@ -127,28 +128,7 @@
     font-family: Roboto, sans-serif;
     line-height: 22px;
     text-indent: 20px;
-    
-}
-
-.ContactDiv {
-    width: 250px;
-    height: 500px;
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30pt;
-
-
-}
-
-.ResumeDiv {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 550px;
+    margin-bottom: 30px;
 }
 
 .FooterBar {
@@ -162,20 +142,20 @@
     z-index: 100;
     border-top-color: darkgray;
     border-style: solid;
-    border-width: 3pt;
+    border-width: 1pt;
     border-bottom: none;
     border-left: none;
     border-right: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
   }
 
   .Icons{
     color: black;
-    padding-left: 50px;
-    padding-right: 50px;
-    transform: scale(1.5);
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: scale(1.2);
     
   }
 
@@ -190,7 +170,6 @@
     align-items: center;
     position: sticky;
     background-color: white;
-    border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     height: 10vh;
     width: auto;

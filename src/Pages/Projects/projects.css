@@ -19,10 +19,12 @@
     color:white;
     width:100%;
     height:100%;
+    justify-content: center;
 }
 
 .headertext h1{
     font-size: 70pt;
+    margin: 0;
 }
 
 .headertext h3{
@@ -36,9 +38,14 @@
     justify-content: space-between;
     margin:auto;
     padding-top: 1%;
+    margin-bottom: 30px;
 }
 
 .casestudy h2{
     margin-top: 30px;
     margin-bottom: 0px;
+}
+
+.casestudy p{
+    line-height: 22px;
 }
