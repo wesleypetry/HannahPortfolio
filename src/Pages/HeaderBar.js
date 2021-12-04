@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.modules.css';
+import HBLogo from './Images/HBLogo.svg'
 
 
 function HeaderBar(props) {
@@ -7,6 +8,12 @@ function HeaderBar(props) {
     return (
         <div className="HeaderBar">
             <div className="H1_Logo">
+                <div className="HBLogo">
+                    <a href="/">
+                        <img src={HBLogo} alt="Hannah Braswell Logo"/>
+                    </a>
+                </div>
+                <div className="LogoSpacer"></div>
                 <h1 className="H1_Header">HANNAH BRASWELL</h1>
             </div>
             <div className="NavButtons">
