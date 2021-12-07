@@ -1,7 +1,9 @@
 .HomeDiv {
     height: 550px;
-    background-color: darkgray;
+    background-image: url(./Images/featuredtest.png);
     width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -13,6 +15,7 @@
     z-index: 10;
     position: absolute;
     word-spacing: 10pt;
+    color:#EBA362;
 }
 
 .IntroTextDiv {
@@ -22,14 +25,18 @@
     position: absolute;
     height: 400px;
     text-align: left;
-    background-color: lightgray;
-    fill-opacity: 50%;
+    background: rgba(110, 110, 110, .9);
     width: 400px;
     height: 300px;
     border-radius: 10pt;
     padding: 35px;
     line-height: 22px;
 }
+
+.IntroTextDiv p{
+    color:#fff;
+}
+
 
 .WorkDiv {
     height: auto;
@@ -61,16 +68,60 @@
     }
 }
 
-.GridItem {
-    background-color: darkgray;
+.GridItem1 {
     padding: 20px;
     height: 300px;
     width: 300px;
-    border-radius: 10pt;
-    background-image: url(./Images/random_pic.png);
+    border-radius: 8pt;
+    background-image: url(./Images/UXgrid.png);
     background-size: 100%;
     position: relative;
+}
 
+.GridItem2 {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8pt;
+    background-image: url(./Images/tigerliliesmockup.png);
+    background-size: 100%;
+    position: relative;
+}
+.GridItem3 {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8pt;
+    background-image: url(./Images/pohgrid.png);
+    background-size: 100%;
+    position: relative;
+}
+.GridItem4 {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8pt;
+    background-image: url(./Images/tigerliliesmockup.png);
+    background-size: 100%;
+    position: relative;
+}
+.GridItem5 {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8pt;
+    background-image: url(./Images/brandgrid.png);
+    background-size: 100%;
+    position: relative;
+}
+.GridItem6 {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 8pt;
+    background-image: url(./Images/tigerliliesmockup.png);
+    background-size: 100%;
+    position: relative;
 }
 
 .GridItemText {
@@ -244,4 +295,3 @@ a:hover {
     color: coral;
     text-decoration: none;
 }
-
