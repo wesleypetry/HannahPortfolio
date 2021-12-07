@@ -57,7 +57,7 @@ function Work(props) {
                     <a href = "/Work">
                         <div className="GridItem6">
                             <div className="GridOverlay">
-                                <p className="GridItemText">Brand Creation and Design Concepts</p>
+                                <p className="GridItemText">Octoholic Beer Packaging Concept</p>
                             </div>
                         </div>
                     </a>
