@@ -1,10 +1,11 @@
-.HomeDiv {
-    height: 550px;
-    background-image: url(./Images/featuredtest.png);
+.HomeDiv { 
+    height: auto;
+    width:100%;
+}
+
+.HeroImage {
+    height: 100%;
     width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    text-align: center;
 }
 
 .IntroHeaderDiv {
@@ -23,11 +24,10 @@
     top: 155px;
     padding-top: 25px;
     position: absolute;
-    height: 400px;
     text-align: left;
     background: rgba(110, 110, 110, .9);
-    width: 400px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
     border-radius: 10pt;
     padding: 35px;
     line-height: 22px;
@@ -83,7 +83,7 @@
     height: 300px;
     width: 300px;
     border-radius: 8pt;
-    background-image: url(./Images/tigerliliesgrid.png);
+    background-image: url(./Images/accruegrid.png);
     background-size: 100%;
     position: relative;
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import './styles.modules.css';
+import heroimage from './Images/heroimage.png';
 
 
 function Work(props) {
     return (
         <div>
             <div className="HomeDiv">
+                <img className="HeroImage" src = {heroimage} alt = "heroimage" />
                 <div className="IntroHeaderDiv">
                     <h1>Hi, I'm Hannah</h1>
                 </div>
