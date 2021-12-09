@@ -14,17 +14,17 @@ function HeaderBar(props) {
                     </a>
                 </div>
                 <div className="LogoSpacer"></div>
-                <h1 className="H1_Header">HANNAH BRASWELL</h1>
+                <h1 className="H1_Header">Hannah Braswell</h1>
             </div>
             <div className="NavButtons">
                 <a href="/" className="H1_Link">
-                    <h1 className="H1_Header">WORK</h1>
+                    <h1 className="H1_Header">Work</h1>
                 </a>
                 <a href="/About" className="H1_Link">
-                    <h1 className="H1_Header">ABOUT</h1>
+                    <h1 className="H1_Header">About</h1>
                 </a>
                 <a href="/Hannah Braswell Resume.pdf" download className="H1_Link">
-                    <h1 className="H1_Header">RESUME</h1>
+                    <h1 className="H1_Header">Resume</h1>
                 </a>
             </div>
         </div>

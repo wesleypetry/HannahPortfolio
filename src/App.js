@@ -5,6 +5,7 @@ import About from './Pages/About';
 import HeaderBar from './Pages/HeaderBar';
 import FooterBar from './Pages/FooterBar';
 import UXDesign from './Pages/Projects/UXDesign';
+import BrandConcept from './Pages/Projects/BrandConcept';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
           <BrowserRouter>
               <Switch>
                 <Route path="/" component={Work} exact/>
-                <Route path="/About" component={About} exact />
+                <Route path="/About" component={About} exact/>
                 <Route path="/UXDesign" component={UXDesign} exact />
+                <Route path="/BrandConcept" component={BrandConcept} exact />
               </Switch>
           </BrowserRouter>
           <FooterBar/>

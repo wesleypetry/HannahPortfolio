@@ -29,8 +29,10 @@
 }
 
 .headertext h3{
-    font-size: 20pt;
+    font-size: 16pt;
     text-align: center;
+    font-weight:300;
+    width:55%;
 }
 
 .casestudy{
@@ -49,5 +51,6 @@
 }
 
 .casestudy p{
-    line-height: 22px;
+    line-height: 26px;
+    font-weight: 300;
 }
