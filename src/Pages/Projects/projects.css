@@ -1,11 +1,3 @@
-.container{
-    min-height:100vh;
-    height:100vh;
-    width:100vh;
-    display:flex;
-    justify-content: center;
-}
-
 .colorheader {
     display:flex;
     background-color: #EBA362;
@@ -53,4 +45,14 @@
 .casestudy p{
     line-height: 26px;
     font-weight: 300;
+}
+
+.brandguide {
+    cursor: zoom-in;
+
+}
+
+.brandguideZoom {
+    cursor: zoom-out;
+    transform: scale(1.5);
 }

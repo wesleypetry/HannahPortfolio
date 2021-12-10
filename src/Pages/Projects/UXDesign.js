@@ -5,7 +5,7 @@ import bankapp from './ProjectImages/bankapp.png';
 
 function UXDesign(props) {
     return (
-        <div classname="container">
+        <div>
             <div className="colorheader">
                 <div className="headertext">
                     <h1>User Experience Design</h1>
