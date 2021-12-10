@@ -3,7 +3,7 @@ import './projects.css';
 
 function UXDesign(props) {
     return (
-        <div classname="container">
+        <div>
             <div className="colorheader">
                 <div className="headertext">
                     <h1>User Experience Design</h1>
