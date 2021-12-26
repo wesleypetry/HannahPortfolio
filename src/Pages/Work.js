@@ -27,14 +27,14 @@ function Work(props) {
                             </div>
                         </div>
                     </a>
-                    <a href = "/Work">
+                    <a href = "/Accrue">
                         <div className="GridItem2">
                             <div className="GridOverlay">
                                 <p className="GridItemText">AccruePartners Internship</p>
                             </div>
                         </div>
                     </a>
-                    <a href = "/Work">
+                    <a href = "/POH">
                         <div className="GridItem3">
                             <div className="GridOverlay">
                                 <p className="GridItemText">Pieper O'Brien Herr Internship</p>
@@ -42,7 +42,7 @@ function Work(props) {
                         </div>
                     </a>
                     
-                    <a href = "/Work">
+                    <a href = "/ClemsonFrisbee">
                         <div className="GridItem4">
                             <div className="GridOverlay">
                                 <p className="GridItemText">Clemson Ultimate Frisbee Website Concept</p>
@@ -56,7 +56,7 @@ function Work(props) {
                             </div>
                         </div>
                     </a>
-                    <a href = "/Work">
+                    <a href = "/Octoholic">
                         <div className="GridItem6">
                             <div className="GridOverlay">
                                 <p className="GridItemText">Octoholic Beer Packaging Concept</p>
