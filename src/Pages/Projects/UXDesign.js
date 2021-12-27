@@ -5,18 +5,22 @@ import bankapp from './ProjectImages/bankapp.png';
 
 function UXDesign(props) {
     const [brandguideStyle, setStyle] = useState("brandguide");
+    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
+  
   
     const changeStyle = () => {
         if (brandguideStyle === "brandguide") {
             setStyle("brandguideZoom");
+            setBlurStyle("blurOverlay-blur");
         }
         else {
             setStyle("brandguide");
+            setBlurStyle("blurOverlay");
         }
         
     };
     return (
-        <div>
+        <div className="container">
             <div className="colorheader">
                 <div className="headertext">
                     <h1>User Experience Design</h1>
@@ -34,6 +38,7 @@ function UXDesign(props) {
                 <h2>Key Takeaways</h2>
                 <p>This was one of my favorite projects in my college career. I learned the ins and outs of user experience design. I think that I accomplished my goal of making the Bank of America app more refined and user-friendly. The design really draws attention to the most important reason why users open the banking app. I feel more confident in designing mobile and web apps for the user after completing this project.</p>
             </div>
+            <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>
     );
 

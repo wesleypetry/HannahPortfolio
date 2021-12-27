@@ -49,10 +49,35 @@
 
 .brandguide {
     cursor: zoom-in;
-
+    z-index: 15;
 }
 
 .brandguideZoom {
     cursor: zoom-out;
+    z-index: 15;
     transform: scale(1.5);
+}
+
+.container {
+    position: relative;
+}
+
+.blurOverlay {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    background-color: #7777;
+    z-index: -1;
+    position: absolute;
+}
+
+.blurOverlay-blur {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    opacity: 1;
+    z-index: 10;
+    position: absolute;
 }

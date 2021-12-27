@@ -6,19 +6,22 @@ import brandguide from './ProjectImages/brandguide.png';
 function BrandConcept(props) {
 
     const [brandguideStyle, setStyle] = useState("brandguide");
+    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
   
     const changeStyle = () => {
         if (brandguideStyle === "brandguide") {
             setStyle("brandguideZoom");
+            setBlurStyle("blurOverlay-blur");
         }
         else {
             setStyle("brandguide");
+            setBlurStyle("blurOverlay");
         }
         
     };
 
     return (
-        <div>
+        <div className="container">
             <div className="colorheader">
                 <div className="headertext">
                     <h1>Botanical Brand Concept</h1>
@@ -36,6 +39,7 @@ function BrandConcept(props) {
                 <h2>Key Takeaways</h2>
                 <p> I really enjoyed this project because I was able to basically create something from the ground up and really build it to what I wanted it to be. I was able to bring my ideas to life through print media. It also opened my eyes on the creative and design side of branding. I learned new software, like XMPie, that is used in marketing campaigns. Even though this project was conceptual, it felt real when I had all of the pieces together. </p>
             </div>
+            <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>
     );
 
