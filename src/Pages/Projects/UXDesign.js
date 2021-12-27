@@ -28,7 +28,7 @@ function UXDesign(props) {
                 </div>
             </div>
             <div className="casestudy">
-                <h2>The Task</h2>
+                <h2>The Brief</h2>
                 <p>During a User Experience Design course at Clemson, I was tasked with creating an app design centered around the experience of the user. I chose to redesign the Bank of America mobile app to be cleaner, more streamlined and have a better interface.</p>
                 <h2>Inspiration + Process</h2>
                 <p>I personally am a user of the Bank of America app. It has always felt difficult to navigate and accomplish tasks on. This is why I decided to redesign it and focus on the user this time. Bank of America has already established their brand colors, so that was something that I did not change.<br/><br/>First I created a moodboard of web apps and styles that that inspired me. After, I created a clean workflow that made sense. Having a simple workflow was very important to me because I wanted to make the user’s experience with the app as easy and straight-forward as possible. The next step was to create wireframes to clarify consistent ways for displaying particular types of information on the interface. From there, I curated high-fidelity mockups in order to show more detail and give a better taste of what the real user interface elements might look like. Finally, I used Invision to prototype my design and really make it come to life.</p>

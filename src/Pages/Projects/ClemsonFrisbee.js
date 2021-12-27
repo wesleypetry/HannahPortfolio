@@ -29,7 +29,7 @@ function ClemsonFrisbee(props) {
                 </div>
             </div>
             <div className="casestudy">
-                <h2>The Task</h2>
+                <h2>The Brief</h2>
                 <p>During my sophomore year at Clemson, I learned HTML and CSS. I was tasked with a semester-long project of designing and developing a conceptual, responsive website for a student client.</p>
                 <h2>Process</h2>
                 <p>I first met with a student-client to discuss their purpose, goals and aesthetic look that they wanted the site to accomplish. 

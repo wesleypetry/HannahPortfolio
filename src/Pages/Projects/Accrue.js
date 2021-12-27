@@ -29,7 +29,7 @@ function Accrue(props) {
                 </div>
             </div>
             <div className="casestudy">
-                <h2>The Task</h2>
+                <h2>The Brief</h2>
                 <p>During my 4 months at AccruePartners, I was tasked with taking over the company’s social media platforms with a goal of increasing both employee engagement and external engagement from followers. In June, I also completed a social media audit AccruePartners’ Instagram, LinkedIn, Twitter, and Facebook in comparison with other competitors in the area.</p>
                 <h2>Inspiration + Process</h2>
                 <p>I drew a lot of inspiration from the blue and orange colors in AccruePartners’ brand guidelines, the triangle “A” shapes in the logo, and the circular shape of the logo. Prior to creating any designs, I also researched ways to draw engagement from followers and decided to include things like polls and questions in my designs. 
