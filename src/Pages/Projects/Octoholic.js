@@ -29,7 +29,7 @@ function Octoholic(props) {
                 </div>
             </div>
             <div className="casestudy">
-                <h2>The Task</h2>
+                <h2>The Brief</h2>
                 <p>During my fall semester of senior year, I was tasked with creating a 4-color label and package for a conceptual brand. The goal was to learn to use a flexography press to print the label and a digital printer to output the package.</p>
                 <h2>Inspiration + Process</h2>
                 <p>My inspiration came from my love for the ocean and my small knowledge of local beer. 
