@@ -22,7 +22,7 @@ function Octoholic(props) {
 
     return (
         <div className="container">
-            <div className="colorheader">
+            <div className="colorheader-g">
                 <div className="headertext">
                     <h1>Octoholic Beer Packaging Concept</h1>
                     <h3>In Fall 2021, I designed and printed a beer bottle label and 4-pack beer carrier for a brand a created called “Octoholic”.</h3>

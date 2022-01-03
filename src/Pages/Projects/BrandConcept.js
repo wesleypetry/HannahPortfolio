@@ -22,7 +22,7 @@ function BrandConcept(props) {
 
     return (
         <div className="container">
-            <div className="colorheader">
+            <div className="colorheader-p">
                 <div className="headertext">
                     <h1>Botanical Brand Concept</h1>
                     <h3>In Fall 2020, I was tasked with a semester-long project. This project was to create a brand and all of the assets to accompany its creation. This included brand guidelines, a brand story booklet, a brochure, and a variable data printed booklet. </h3>

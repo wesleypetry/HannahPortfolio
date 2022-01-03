@@ -22,7 +22,7 @@ function ClemsonFrisbee(props) {
 
     return (
         <div className="container">
-            <div className="colorheader">
+            <div className="colorheader-g">
                 <div className="headertext">
                     <h1>Clemson Frisbee Website Concept</h1>
                     <h3>While learning HTML and CSS for the first time, I designed and coded a conceptual website for the Clemson Ultimate Frisbee Team.</h3>

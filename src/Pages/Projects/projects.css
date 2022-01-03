@@ -1,6 +1,13 @@
-.colorheader {
+.colorheader-g {
     display:flex;
     background-color: #6CAD7A;
+    width:100%;
+    height:500px;
+}
+
+.colorheader-p {
+    display:flex;
+    background-color: #A3B0E2;
     width:100%;
     height:500px;
 }
@@ -80,4 +87,8 @@
     opacity: 1;
     z-index: 10;
     position: absolute;
+}
+
+.boldLink {
+    font-weight: 600;
 }
