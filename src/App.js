@@ -16,7 +16,7 @@ function App() {
     <div className="App">
         <HeaderBar/>
         <div className="Content">
-          <BrowserRouter>
+          <BrowserRouter basename="/react">
               <Switch>
                 <Route path="/" component={Work} exact/>
                 <Route path="/About" component={About} exact/>
