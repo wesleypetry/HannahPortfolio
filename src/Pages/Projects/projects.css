@@ -92,3 +92,7 @@
 .boldLink {
     font-weight: 600;
 }
+
+.iframe{
+    border: none;
+}
