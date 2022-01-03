@@ -1,9 +1,12 @@
 import React from 'react';
 import './styles.modules.css';
 import HBLogo from './Images/HBLogo.svg'
+import { useLocation } from 'react-router-dom';
 
 
 function HeaderBar(props) {
+
+    const { pathname } = useLocation();
 
     return (
         <div className="HeaderBar">
@@ -18,10 +21,10 @@ function HeaderBar(props) {
             </div>
             <div className="NavButtons">
                 <a href="/" className="H1_Link">
-                    <h1 className="H1_Header">Work</h1>
+                    <h1 className={pathname === '/' ? "H1_Header_Current" : "H1_Header"}>Work</h1>
                 </a>
                 <a href="/About" className="H1_Link">
-                    <h1 className="H1_Header">About</h1>
+                    <h1 className={pathname === '/About' ? "H1_Header_Current" : "H1_Header"}>About</h1>
                 </a>
                 <a href="/Hannah Braswell Resume.pdf" target="_blank" className="H1_Link">
                     <h1 className="H1_Header">Resume</h1>

@@ -14,9 +14,9 @@ import Octoholic from './Pages/Projects/Octoholic';
 function App() {
   return (
     <div className="App">
-        <HeaderBar/>
         <div className="Content">
           <BrowserRouter basename="/react">
+            <HeaderBar/>
               <Switch>
                 <Route path="/" component={Work} exact/>
                 <Route path="/About" component={About} exact/>
@@ -27,8 +27,8 @@ function App() {
                 <Route path="/ClemsonFrisbee" component={ClemsonFrisbee} exact />
                 <Route path="/Octoholic" component={Octoholic} exact />
               </Switch>
+              <FooterBar/>
           </BrowserRouter>
-          <FooterBar/>
         </div>
       </div>
   );
