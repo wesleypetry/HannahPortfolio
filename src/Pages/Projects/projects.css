@@ -31,7 +31,7 @@
     font-size: 16pt;
     text-align: center;
     font-weight:300;
-    width:55%;
+    width:50%;
 }
 
 .casestudy{
@@ -110,7 +110,7 @@
 
 @media (max-width: 750px) {
     .headertext h1 {
-        font-size: 45pt;
+        font-size: 35pt;
     }
     .casestudy {
         width: 75%;
@@ -136,5 +136,8 @@
     }
     .blurOverlay-blur {
         opacity: 0;
+    }
+    .headertext h3 {
+        width: 85%;
     }
 }
