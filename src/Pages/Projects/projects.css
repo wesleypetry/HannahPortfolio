@@ -116,21 +116,17 @@
         width: 75%;
     }
     .brandguide {
-        max-height: 100%;
+        min-height: 100%;
         height: auto;
         object-fit: contain;
         cursor: initial;
-        overflow: hidden;
-        white-space: nowrap;
     }
     .brandguideZoom {
-        max-height: 100%;
+        min-height: 100%;
         height: auto;
         object-fit: contain;
         transform: scale(1);
         cursor: initial;
-        overflow: hidden;
-        white-space: nowrap;
     }
     .blurOverlay-blur {
         opacity: 0;
