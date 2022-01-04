@@ -120,6 +120,9 @@
         height: auto;
         object-fit: contain;
         cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
     }
     .brandguideZoom {
         min-height: 100%;
@@ -127,6 +130,9 @@
         object-fit: contain;
         transform: scale(1);
         cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
     }
     .blurOverlay-blur {
         opacity: 0;
