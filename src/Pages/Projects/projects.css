@@ -123,6 +123,7 @@
         margin:0;
         top:0;
         bottom:0;
+        background-color: lawngreen;
     }
     .brandguideZoom {
         min-height: 100%;
@@ -133,6 +134,7 @@
         margin:0;
         top:0;
         bottom:0;
+        background-color: lawngreen;
     }
     .blurOverlay-blur {
         opacity: 0;
