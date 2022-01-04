@@ -97,6 +97,22 @@
     border: none;
 }
 
+.imagegrid{
+    display:flex;
+    flex-direction: column;
+}
+
+.topgrid{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottomgrid{
+    display:flex;
+    flex-direction: row;
+}
+
 @media (max-width:1200px) {
     .casestudy {
         width: 60%;
