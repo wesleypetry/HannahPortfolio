@@ -67,6 +67,9 @@
 
 .container {
     position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blurOverlay {
@@ -100,6 +103,7 @@
 .imagegrid{
     display:flex;
     flex-direction: column;
+    width:75%;
 }
 
 .topgrid{
