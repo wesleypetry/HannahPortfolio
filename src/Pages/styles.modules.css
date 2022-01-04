@@ -1,5 +1,5 @@
 .HomeDiv { 
-    height: 0;
+    height: auto;
     width:100%;
     position: relative;
     background-image: url(./Images/heroimage.png);
@@ -7,7 +7,6 @@
     background-size: contain; 
     padding-top: 32.52%;
     display: flex;
-
 }
 
 .IntroHeaderDiv {
@@ -32,12 +31,14 @@
     font-weight: 300;
     display: flex;
     flex-direction: column;
-    overflow: auto;
-    
 }
+
+
 
 .IntroTextDiv p{
     color:#000;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
@@ -63,12 +64,40 @@
     .WorkGrid {
         grid-template-columns: auto auto;
     }
+    .IntroTextDiv {
+        right:3%;
+        width:45%;
+        top:33%;
+        height:65%;
+    }
 }
 
 
 @media (max-width: 750px) {
     .WorkGrid {
         grid-template-columns: auto;
+    }
+    .HomeDiv {
+        background-image: none;
+        flex-direction: column;
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .IntroHeaderDiv {
+        text-align: center;
+        position: static;
+        font-size: 4.5vw;
+        word-spacing: 5pt;
+    }
+    .IntroTextDiv {
+        text-align: center;
+        position: static;
+        width: auto;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .IntroHeaderDiv h1 {
+        margin-bottom: 3%;
     }
 }
 

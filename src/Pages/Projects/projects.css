@@ -31,7 +31,7 @@
     font-size: 16pt;
     text-align: center;
     font-weight:300;
-    width:55%;
+    width:50%;
 }
 
 .casestudy{
@@ -95,4 +95,51 @@
 
 .iframe{
     border: none;
+}
+
+@media (max-width:1200px) {
+    .casestudy {
+        width: 60%;
+    }
+    .brandguide {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 750px) {
+    .headertext h1 {
+        font-size: 35pt;
+    }
+    .casestudy {
+        width: 75%;
+    }
+    .brandguide {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+        background-color: lawngreen;
+    }
+    .brandguideZoom {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        transform: scale(1);
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+        background-color: lawngreen;
+    }
+    .blurOverlay-blur {
+        opacity: 0;
+    }
+    .headertext h3 {
+        width: 85%;
+    }
 }
