@@ -96,3 +96,31 @@
 .iframe{
     border: none;
 }
+
+@media (max-width:1200px) {
+    .casestudy {
+        width: 60%;
+    }
+    .brandguide {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 750px) {
+    .headertext h1 {
+        font-size: 45pt;
+    }
+    .casestudy {
+        width: 75%;
+    }
+    .brandguide {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .brandguideZoom {
+        transform: scale(1.2);
+    }
+}
