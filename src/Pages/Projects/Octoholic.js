@@ -1,20 +1,18 @@
 import React,{useState} from "react";
 import './projects.css';
-import octoholicpic from './ProjectImages/octoholicproject.png';
-
 
 function Octoholic(props) {
     
-    const [brandguideStyle, setStyle] = useState("brandguide");
+    const [brandguideStyle, setStyle] = useState("OctoholicImage");
     const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
   
     const changeStyle = () => {
-        if (brandguideStyle === "brandguide") {
-            setStyle("brandguideZoom");
+        if (brandguideStyle === "OctoholicImage") {
+            setStyle("OctoholicImageZoom");
             setBlurStyle("blurOverlay-blur");
         }
         else {
-            setStyle("brandguide");
+            setStyle("OctoholicImage");
             setBlurStyle("blurOverlay");
         }
         
@@ -37,7 +35,7 @@ function Octoholic(props) {
                     <br/><br/>I then created a 4-pack beer carrier to accompany the beer bottle label. I blew up the octopus logo to really emphasize it on the package. I added the name and necessary information to the diecut. I digitally printed the package on a flatbed press then cut and folded it together. Having these two matching pieces together made me very proud because they looked as though they were a real product.</p>
                 <h2>Finished Designs</h2>
                 <p>I had a cohesive theme across both pieces of this project. I am very proud of this work as it was a unique project to complete that took an immense amount of time and effort. Below you can view the final label and beer carrier together. </p>
-                <img className={brandguideStyle} onClick={changeStyle} src = {octoholicpic} alt = "octoholic"/>
+                <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>Throughout this semester long project, I learned how to use a Nilpeter flexography press and a digital flatbead printer and cutter. I also got to really experiment with my own conceptual brand and had a lot of freedom in what I wanted the end products to look like. </p>
             </div>
