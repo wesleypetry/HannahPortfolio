@@ -65,6 +65,98 @@
     transform: scale(1.5);
 }
 
+.UXimage {
+    cursor: zoom-in;
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/bankapp.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 106.87%;
+}
+
+.UXimageZoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/bankapp.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 106.87%;
+}
+
+.AccrueImage {
+    cursor: zoom-in;
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/accrue.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.AccrueImageZoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/accrue.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.FrisbeeImage {
+    cursor: zoom-in;
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/frisbeesite.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.FrisbeeImageZoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/frisbeesite.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.OctoholicImage {
+    cursor: zoom-in;
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/octoholicproject.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 44.83%;
+}
+
+.OctoholicImageZoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/octoholicproject.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 44.83%;
+}
+
 .container {
     position: relative;
     display:flex;
@@ -121,7 +213,22 @@
     .casestudy {
         width: 60%;
     }
-    .brandguide {
+    .UXimage {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .AccrueImage {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .FrisbeeImage {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .OctoholicImage {
         max-height: 100%;
         height: auto;
         object-fit: contain;
@@ -135,7 +242,7 @@
     .casestudy {
         width: 75%;
     }
-    .brandguide {
+    .UXimage {
         min-height: 100%;
         height: auto;
         object-fit: contain;
@@ -143,9 +250,8 @@
         margin:0;
         top:0;
         bottom:0;
-        background-color: lawngreen;
     }
-    .brandguideZoom {
+    .UXimageZoom {
         min-height: 100%;
         height: auto;
         object-fit: contain;
@@ -154,7 +260,63 @@
         margin:0;
         top:0;
         bottom:0;
-        background-color: lawngreen;
+    }
+    .AccrueImage {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+    }
+    .AccrueImageZoom {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        transform: scale(1);
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+    }
+    .FrisbeeImage {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+    }
+    .FrisbeeImageZoom {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        transform: scale(1);
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+    }
+    .OctoholicImage {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
+    }
+    .OctoholicImageZoom {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        transform: scale(1);
+        cursor: initial;
+        margin:0;
+        top:0;
+        bottom:0;
     }
     .blurOverlay-blur {
         opacity: 0;

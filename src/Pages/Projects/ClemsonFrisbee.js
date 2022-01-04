@@ -1,20 +1,18 @@
 import React,{useState} from "react";
 import './projects.css';
-import frisbeesite from './ProjectImages/frisbeesite.png';
-
 
 function ClemsonFrisbee(props) {
     
-    const [brandguideStyle, setStyle] = useState("brandguide");
+    const [brandguideStyle, setStyle] = useState("FrisbeeImage");
     const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
   
     const changeStyle = () => {
-        if (brandguideStyle === "brandguide") {
-            setStyle("brandguideZoom");
+        if (brandguideStyle === "FrisbeeImage") {
+            setStyle("FrisbeeImageZoom");
             setBlurStyle("blurOverlay-blur");
         }
         else {
-            setStyle("brandguide");
+            setStyle("FrisbeeImage");
             setBlurStyle("blurOverlay");
         }
         
@@ -39,7 +37,7 @@ function ClemsonFrisbee(props) {
                 </p>
                 <h2>Finished Designs</h2>
                 <p>I took the student client’s wants and needs into consideration as a priority when I was designing this site. After multiple meetings with the client, they were greatly pleased with the result. View the final designs below or click here to see the site on your browser.</p>
-                <img className={brandguideStyle} onClick={changeStyle} src = {frisbeesite} alt = "frisbeesite"/>
+                <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>Since this was my first time utilizing HTML and CSS code, I learned so much about designing websites. This was also the first time I had been introduced to the importance of the user experience of sites. This project really made me fall in love with user interface and design. Even though I may have done some things differently if this were a project I was doing currently, I found my passion through this project and am super proud of the final website that I designed and developed.</p>
             </div>

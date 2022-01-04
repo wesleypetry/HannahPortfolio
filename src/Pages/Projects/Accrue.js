@@ -1,20 +1,18 @@
 import React,{useState} from "react";
 import './projects.css';
-import AccrueImage from './ProjectImages/accrue.png';
-
 
 function Accrue(props) {
 
-    const [brandguideStyle, setStyle] = useState("brandguide");
+    const [brandguideStyle, setStyle] = useState("AccrueImage");
     const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
   
     const changeStyle = () => {
-        if (brandguideStyle === "brandguide") {
-            setStyle("brandguideZoom");
+        if (brandguideStyle === "AccrueImage") {
+            setStyle("AccrueImageZoom");
             setBlurStyle("blurOverlay-blur");
         }
         else {
-            setStyle("brandguide");
+            setStyle("AccrueImage");
             setBlurStyle("blurOverlay");
         }
         
@@ -38,7 +36,7 @@ function Accrue(props) {
                     <br/><br/>In the midst of designing posts for social media, I also wrote a few articles for the AccrueParters Blog on the website. View one of the blogs <a className="boldLink" href="https://accruepartners.com/redesigning-work-post-covid/" target="_blank" rel="noreferrer noopener">here</a>.</p>
                 <h2>Finished Designs</h2>
                 <p>I stuck to AccruePartners’ brand guidelines throughout my posts while also adding different elements that they had not done previously. Below you can view some of the social media posts I designed and output to each of the company’s platforms.</p>
-                <img className={brandguideStyle} onClick={changeStyle} src = {AccrueImage} alt = "accrue"/>
+                <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>I learned many useful skills and advice during this internship. I learned how to use Hootsuite and Monday.com. I also learned how to understand a brand’s voice quickly and effectively. Being a fully remote intern introduced me to a different kind of work environment, but it also allowed me to continue to learn more about the staffing industry while making an impact with the team at AccruePartners.</p>
             </div>
