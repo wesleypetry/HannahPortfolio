@@ -39,7 +39,7 @@ function POH(props) {
                 <p>Throughout all of my projects at POH, I maintained a professional look while also keeping designs cohesive with the company’s brand. Take a look below at some of my final designs. </p>
                 <img className={brandguideStyle} onClick={changeStyle} src = {bankapp} alt = "bankapp"/>
                 <h2>Key Takeaways</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>This internship not only allowed me to master my skills in the Adobe suite, but it also gave me immense experience working with a design team in a small company environment. I learned how to take an established company’s brand and apply it to new, forward-moving designs. I took constructive criticism well and was even able to give feedback to other team members. </p>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>
