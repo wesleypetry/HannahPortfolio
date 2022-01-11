@@ -120,7 +120,7 @@
     }
     .headshotSpacer {
         opacity: 1 !important;
-        padding-top:40% !important;
+        padding-top:50% !important;
         background-image: url(./Images/headshotedited.png);
         background-repeat: no-repeat;
         background-size: contain;
