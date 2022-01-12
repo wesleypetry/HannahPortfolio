@@ -42,7 +42,7 @@ function BrandConcept(props) {
                         <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
                     </div>
                     <div className="bottomgrid">
-                        <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
+                        <iframe allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html" width="100%" height="400px"></iframe>                
                         <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
                     </div>
                 </div>
