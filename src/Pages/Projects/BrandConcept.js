@@ -36,16 +36,16 @@ function BrandConcept(props) {
                 <h2>Finished Designs</h2>
                 <p>I stuck to the brand guidelines I created throughout this entire project. Below you can view each of the different pieces that made up this project from start to finish. </p>
             </div>
-                <div className="imagegrid">
-                    <div className="topgrid">
-                        <img className={brandguideStyle} src = {brandguide} onClick={changeStyle} alt = "brandguide" width="50%" height="50%"/>              
-                        <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
-                    </div>
-                    <div className="bottomgrid">
-                        <iframe allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html" width="100%" height="400px"></iframe>                
-                        <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
-                    </div>
+            <div className="imagegrid">
+                <div className="topgrid">
+                    <img className={brandguideStyle} src = {brandguide} onClick={changeStyle} alt = "brandguide" width="50%" height="50%"/>              
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
                 </div>
+                <div className="bottomgrid">
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html" width="100%" height="400px"></iframe>                
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
+                </div>
+            </div>
             <div className="casestudy">
                 <h2>Key Takeaways</h2>
                 <p> I really enjoyed this project because I was able to basically create something from the ground up and really build it to what I wanted it to be. I was able to bring my ideas to life through print media. It also opened my eyes on the creative and design side of branding. I learned new software, like XMPie, that is used in marketing campaigns. Even though this project was conceptual, it felt real when I had all of the pieces together. </p>

@@ -1,24 +1,38 @@
 import React,{useState} from "react";
 import './projects.css';
-import bankapp from './ProjectImages/bankapp.png';
 
 
 function POH(props) {
 
-    const [brandguideStyle, setStyle] = useState("brandguide");
-    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
+    const [POH1Style, setStyle1] = useState("POHImage1");
+    const [blurOverlayStyle1, setBlurStyle1] = useState("blurOverlay")
+    const [POH2Style, setStyle2] = useState("POHImage2");
+    const [blurOverlayStyle2, setBlurStyle2] = useState("blurOverlay")
   
-    const changeStyle = () => {
-        if (brandguideStyle === "brandguide") {
-            setStyle("brandguideZoom");
-            setBlurStyle("blurOverlay-blur");
+  
+    const changeStyle1 = () => {
+        if (POH1Style === "POHImage1") {
+            setStyle1("POHImage1Zoom");
+            setBlurStyle1("blurOverlay-blur");
         }
         else {
-            setStyle("brandguide");
-            setBlurStyle("blurOverlay");
+            setStyle1("POHImage1");
+            setBlurStyle1("blurOverlay");
         }
         
     };
+
+    const changeStyle2 = () => {
+        if (POH2Style === "POHImage2") {
+            setStyle2("POHImage2Zoom");
+            setBlurStyle2("blurOverlay-blur");
+        }
+        else {
+            setStyle2("POHImage2");
+            setBlurStyle2("blurOverlay");
+        }
+        
+    }; 
 
     return (
         <div className="container">
@@ -37,11 +51,13 @@ function POH(props) {
                     <br/><br/>My favorite projects to work on were composite images for the master planning section of POH’s website. I really expanded my Photoshop skills while curating these images, and I gained a lot more confidence in the software. These projects also helped me learn how to take constructive criticism on my designs and turn them into something better and more effective.</p>
                 <h2>Finished Designs</h2>
                 <p>Throughout all of my projects at POH, I maintained a professional look while also keeping designs cohesive with the company’s brand. Take a look below at some of my final designs. </p>
-                <img className={brandguideStyle} onClick={changeStyle} src = {bankapp} alt = "bankapp"/>
+            <div className={POH1Style} onClick={changeStyle1}/>
+            <div className={POH2Style} onClick={changeStyle2}/>
                 <h2>Key Takeaways</h2>
                 <p>This internship not only allowed me to master my skills in the Adobe suite, but it also gave me immense experience working with a design team in a small company environment. I learned how to take an established company’s brand and apply it to new, forward-moving designs. I took constructive criticism well and was even able to give feedback to other team members. </p>
             </div>
-            <div className={blurOverlayStyle} onClick={changeStyle}></div>
+            <div className={blurOverlayStyle1} onClick={changeStyle1}></div>
+            <div className={blurOverlayStyle2} onClick={changeStyle2}></div>
         </div>
     );
 

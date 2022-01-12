@@ -62,7 +62,7 @@
 .brandguideZoom {
     cursor: zoom-out;
     z-index: 15;
-    transform: scale(1.5);
+    transform: translate(50%,0) scale(1.5);
 }
 
 .UXimage {
@@ -155,6 +155,51 @@
     background-repeat: no-repeat;
     background-size: contain; 
     padding-top: 44.83%;
+}
+
+.POHImage1 {
+    cursor: zoom-in;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/poh2.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 62.78%;
+}
+
+.POHImage1Zoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/poh2.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 62.78%;
+}
+
+.POHImage2 {
+    cursor: zoom-in;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/poh1.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 62.78%;
+    margin-top: 2.5%;
+}
+
+.POHImage2Zoom {
+    cursor: zoom-out;
+    z-index: 15;
+    transform: scale(1.5);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/poh1.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 62.78%;
 }
 
 .container {
