@@ -446,6 +446,13 @@
     margin-left: 3vw;
 }
 
+.H1_Header_Name {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 14pt;
+    font-weight: 400;  
+}
+
 .H1_Header {
     margin-left: 3vw;
     margin-right: 3vw;

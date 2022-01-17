@@ -28,7 +28,7 @@ function HeaderBar(props) {
                     </a>
                 </div>
                 <div className="LogoSpacer"></div>
-                <h1 className="H1_Header">Hannah Braswell</h1>
+                <h1 className="H1_Header_Name">Hannah Braswell</h1>
             </div>
             <div className="NavButtons">
                 <a href="/" className="H1_Link">
