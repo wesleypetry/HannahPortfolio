@@ -60,6 +60,25 @@
 
 }
 
+.HamburgerMenu {
+    display: none !important;
+    padding: 15%;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.HamburgerMenu:hover {
+    fill: #EBA362;
+}
+
+.MenuDropdown {
+    display: none;
+}
+
+.MenuDropdown-clicked {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .WorkGrid {
         grid-template-columns: auto auto;
@@ -79,6 +98,9 @@
     }
     .aboutparagraph {
         width: 75% !important;
+    }
+    .MenuDropdown-clicked {
+        display: none;
     }
 }
 
@@ -164,6 +186,35 @@
         padding-left: 9% !important;
         text-indent: 15pt;
     }
+    .H1_Link {
+        display: none;    
+    }
+    .HamburgerMenu {
+        display: block !important;
+    }
+    .MenuDropdown-clicked {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: lightgray;
+        border-right: 0px;
+        border-top: 0px;
+        z-index: -1;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        opacity: 95%;
+    }
+    .H1_Header {
+        font-size: 25px !important;
+    }
+    .H1_Header_Current {
+        font-size: 25px !important;
+    }
+    
 }
 
 .GridItem1 {
@@ -409,6 +460,10 @@
     font-weight: 400;
     border-bottom: 2px solid #EBA362;
     padding-bottom: 2px;
+}
+
+.H1_Header_Hidden {
+    display:none;
 }
 
 a:link {

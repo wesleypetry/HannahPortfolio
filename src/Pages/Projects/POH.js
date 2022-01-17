@@ -5,9 +5,9 @@ import './projects.css';
 function POH(props) {
 
     const [POH1Style, setStyle1] = useState("POHImage1");
-    const [blurOverlayStyle1, setBlurStyle1] = useState("blurOverlay")
+    const [blurOverlayStyle1, setBlurStyle1] = useState("blurOverlay");
     const [POH2Style, setStyle2] = useState("POHImage2");
-    const [blurOverlayStyle2, setBlurStyle2] = useState("blurOverlay")
+    const [blurOverlayStyle2, setBlurStyle2] = useState("blurOverlay");
   
   
     const changeStyle1 = () => {
