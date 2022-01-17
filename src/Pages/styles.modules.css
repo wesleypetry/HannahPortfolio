@@ -62,7 +62,6 @@
 
 .HamburgerMenu {
     display: none !important;
-    padding: 15%;
     transform: scale(1.5);
     cursor: pointer;
 }
@@ -192,6 +191,7 @@
     .HamburgerMenu {
         display: block !important;
         z-index: 100;
+        margin-right: 5vw;
     }
     .MenuDropdown-clicked {
         display: flex;
@@ -214,6 +214,9 @@
     }
     .H1_Header_Current {
         font-size: 25px !important;
+    }
+    .H1_Logo {
+        margin-left: 5vw !important;
     }
     
 }
