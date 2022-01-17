@@ -71,6 +71,10 @@
     fill: #EBA362;
 }
 
+.MenuDropdown {
+    display: none;
+}
+
 .MenuDropdown-clicked {
     display: none;
 }
