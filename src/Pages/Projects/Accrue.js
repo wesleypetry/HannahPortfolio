@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import './projects.css';
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 function Accrue(props) {
 
@@ -39,6 +41,16 @@ function Accrue(props) {
                 <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>I learned many useful skills and advice during this internship. I learned how to use Hootsuite and Monday.com. I also learned how to understand a brand’s voice quickly and effectively. Being a fully remote intern introduced me to a different kind of work environment, but it also allowed me to continue to learn more about the staffing industry while making an impact with the team at AccruePartners.</p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/UXDesign"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/POH" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>

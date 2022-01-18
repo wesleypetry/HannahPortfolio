@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import './projects.css';
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 function Octoholic(props) {
     
@@ -38,6 +40,16 @@ function Octoholic(props) {
                 <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>Throughout this semester long project, I learned how to use a Nilpeter flexography press and a digital flatbead printer and cutter. I also got to really experiment with my own conceptual brand and had a lot of freedom in what I wanted the end products to look like. </p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/BrandConcept"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/UXDesign" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>

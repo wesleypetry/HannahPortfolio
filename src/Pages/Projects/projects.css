@@ -258,6 +258,9 @@
     .casestudy {
         width: 60%;
     }
+    .navigationArrows {
+        width: 60% !important;
+    }
     .UXimage {
         max-height: 100%;
         height: auto;
@@ -296,6 +299,9 @@
     }
     .casestudy {
         width: 75%;
+    }
+    .navigationArrows {
+        width: 75% !important;
     }
     .UXimage {
         min-height: 100%;
@@ -414,4 +420,35 @@
     .headertext h3 {
         width: 85%;
     }
+}
+
+.navigationArrows {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.arrowBack {
+    padding-right: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.arrowBack:hover {
+    fill: #EBA362;
+}
+
+.arrowForward {
+    padding-left: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.arrowForward:hover {
+    fill: #EBA362;
 }

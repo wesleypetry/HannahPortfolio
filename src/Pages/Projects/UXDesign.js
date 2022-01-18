@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import './projects.css';
-
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 function UXDesign(props) {
     const [brandguideStyle, setStyle] = useState("UXimage");
@@ -36,6 +37,16 @@ function UXDesign(props) {
                 <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>This was one of my favorite projects in my college career. I learned the ins and outs of user experience design. I think that I accomplished my goal of making the Bank of America app more refined and user-friendly. The design really draws attention to the most important reason why users open the banking app. I feel more confident in designing mobile and web apps for the user after completing this project.</p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/Octoholic"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/Accrue" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>

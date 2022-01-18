@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import './projects.css';
-
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 function POH(props) {
 
@@ -55,6 +56,16 @@ function POH(props) {
             <div className={POH2Style} onClick={changeStyle2}/>
                 <h2>Key Takeaways</h2>
                 <p>This internship not only allowed me to master my skills in the Adobe suite, but it also gave me immense experience working with a design team in a small company environment. I learned how to take an established company’s brand and apply it to new, forward-moving designs. I took constructive criticism well and was even able to give feedback to other team members. </p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/Accrue"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/ClemsonFrisbee" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle1} onClick={changeStyle1}></div>
             <div className={blurOverlayStyle2} onClick={changeStyle2}></div>

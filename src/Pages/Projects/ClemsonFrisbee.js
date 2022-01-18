@@ -1,5 +1,7 @@
 import React,{useState} from "react";
 import './projects.css';
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 function ClemsonFrisbee(props) {
     
@@ -40,6 +42,16 @@ function ClemsonFrisbee(props) {
                 <div className={brandguideStyle} onClick={changeStyle}/>
                 <h2>Key Takeaways</h2>
                 <p>Since this was my first time utilizing HTML and CSS code, I learned so much about designing websites. This was also the first time I had been introduced to the importance of the user experience of sites. This project really made me fall in love with user interface and design. Even though I may have done some things differently if this were a project I was doing currently, I found my passion through this project and am super proud of the final website that I designed and developed.</p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/POH"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/BrandConcept" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>

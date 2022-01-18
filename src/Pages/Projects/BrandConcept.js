@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './projects.css';
 import brandguide from './ProjectImages/brandguide.png';
+import { ArrowBack } from "@material-ui/icons";
+import { ArrowForward } from "@material-ui/icons";
 
 
 function BrandConcept(props) {
@@ -49,6 +51,16 @@ function BrandConcept(props) {
             <div className="casestudy">
                 <h2>Key Takeaways</h2>
                 <p> I really enjoyed this project because I was able to basically create something from the ground up and really build it to what I wanted it to be. I was able to bring my ideas to life through print media. It also opened my eyes on the creative and design side of branding. I learned new software, like XMPie, that is used in marketing campaigns. Even though this project was conceptual, it felt real when I had all of the pieces together. </p>
+            </div>
+            <div className="navigationArrows">
+                <a href="/ClemsonFrisbee"  className="arrowBack">
+                    <ArrowBack/>
+                    <p>previous project</p>
+                </a>
+                <a href="/Octoholic" className="arrowForward">
+                    <p>next project</p>
+                    <ArrowForward/>
+                </a>
             </div>
             <div className={blurOverlayStyle} onClick={changeStyle}></div>
         </div>
