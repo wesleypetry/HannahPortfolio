@@ -243,6 +243,16 @@
     position: absolute;
 }
 
+.blurOverlay-blur {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    opacity: 1;
+    z-index: 10;
+    position: absolute;
+}
+
 .blurOverlay-brand {
     top: 0;
     bottom: 0;
