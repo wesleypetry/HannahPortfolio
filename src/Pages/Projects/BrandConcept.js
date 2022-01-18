@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './projects.css';
-import brandguide from './ProjectImages/brandguide.png';
 import { ArrowBack } from "@material-ui/icons";
 import { ArrowForward } from "@material-ui/icons";
 
@@ -8,16 +7,16 @@ import { ArrowForward } from "@material-ui/icons";
 function BrandConcept(props) {
 
     const [brandguideStyle, setStyle] = useState("brandguide");
-    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay")
+    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay-brand")
   
     const changeStyle = () => {
         if (brandguideStyle === "brandguide") {
             setStyle("brandguideZoom");
-            setBlurStyle("blurOverlay-blur");
+            setBlurStyle("blurOverlay-brand-blur");
         }
         else {
             setStyle("brandguide");
-            setBlurStyle("blurOverlay");
+            setBlurStyle("blurOverlay-brand");
         }
         
     };
@@ -37,15 +36,16 @@ function BrandConcept(props) {
                 <p>After ample brainstorming, I decided to create a brand called “Botanical” inspired by zero-waste living and clean ingredients. Since starting my college career, I became very interested in the zero-waste lifestyle. I learned a lot about how plastic waste is harming the environment, so I decided to create Botanical as an all natural, zero-waste company that sells skincare products.<br/><br/>I created thumbnail logo designs, finally deciding on one. Next, I created a brand guide containing colors, fonts, logo variations and the overall style of Botanical. From there, I designed a trifold brochure meant to be sent to customers via mail to inform them about the brand, mission and products. I printed this piece using a HP Indigo 5000 digital printing press. Next, I designed a variable data printed (VDP) booklet using Adobe InDesign in conjunction with XMPie uCreate software. XMPie makes it possible to take data and use it to make different variables in a design. Many variables change in this piece including the recipient's name, the information on page 5 pertaining to each person's skin type, and colors of graphics and images. Finally, I created the brand's story, which showcases Botanical's marketing strategy, brand specifications, and a detailed look at the variable data printed booklet.</p>
                 <h2>Finished Designs</h2>
                 <p>I stuck to the brand guidelines I created throughout this entire project. Below you can view each of the different pieces that made up this project from start to finish. </p>
+                <div className="brandguideSmall" onClick={changeStyle}/>              
             </div>
             <div className="imagegrid">
                 <div className="topgrid">
-                    <img className={brandguideStyle} src = {brandguide} onClick={changeStyle} alt = "brandguide" width="50%" height="50%"/>              
-                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
+                    <div className={brandguideStyle} onClick={changeStyle}/>              
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html"></iframe>                
                 </div>
                 <div className="bottomgrid">
-                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html" width="100%" height="400px"></iframe>                
-                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html" width="100%" height="400px"></iframe>                
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html"></iframe>                
+                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html"></iframe>                
                 </div>
             </div>
             <div className="casestudy">

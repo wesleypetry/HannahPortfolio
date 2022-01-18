@@ -57,12 +57,36 @@
 .brandguide {
     cursor: zoom-in;
     z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandguide.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 33.48%;
 }
 
 .brandguideZoom {
     cursor: zoom-out;
     z-index: 15;
-    transform: translate(50%,0) scale(1.5);
+    transform: translate(50%,25%) scale(1.75);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandguide.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.brandguideSmall {
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandguide.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+    margin-top: 3%;
+    display: none;
 }
 
 .UXimage {
@@ -219,7 +243,17 @@
     position: absolute;
 }
 
-.blurOverlay-blur {
+.blurOverlay-brand {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    background-color: #7777;
+    z-index: -1;
+    position: absolute;
+}
+
+.blurOverlay-brand-blur {
     top: 0;
     bottom: 0;
     width: 100%;
@@ -235,6 +269,8 @@
 
 .iframe{
     border: none;
+    width: 100%;
+    height: 400px;
 }
 
 .imagegrid{
@@ -290,6 +326,32 @@
         max-height: 100%;
         height: auto;
         object-fit: contain;
+    }
+    .brandguide {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+        width: 50%;
+        display: none;
+    }
+    .brandguideSmall {
+        display: block;
+    }
+    .blurOverlay-brand-blur {
+        display: none;
+    }
+    .brandguideZoom {
+        display: none;
+    }
+    .topgrid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomgrid {
+        flex-direction: column;
+    }
+    .iframe {
+        margin-top: 5%;
     }
 }
 
@@ -419,6 +481,26 @@
     }
     .headertext h3 {
         width: 85%;
+    }
+    .topgrid {
+        flex-direction: column;
+    }
+    .bottomgrid {
+        flex-direction: column;
+    }
+    .iframe {
+        margin-top: 5%;
+    }
+    .brandguide {
+        display: none;
+    }
+    .brandguideSmall {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        top:0;
+        bottom:0;
     }
 }
 
