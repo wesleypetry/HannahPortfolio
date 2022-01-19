@@ -7,18 +7,33 @@ import { ArrowForward } from "@material-ui/icons";
 function BrandConcept(props) {
 
     const [brandguideStyle, setStyle] = useState("brandguide");
-    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay-brand")
+    const [blurOverlayStyle, setBlurStyle] = useState("blurOverlay-brand");
+    const [brandbrochureStyle, setbrochureStyle] = useState("brandbrochure");
   
     const changeStyle = () => {
         if (brandguideStyle === "brandguide") {
             setStyle("brandguideZoom");
             setBlurStyle("blurOverlay-brand-blur");
+            setbrochureStyle("brandbrochure-hidden")
         }
         else {
             setStyle("brandguide");
             setBlurStyle("blurOverlay-brand");
+            setbrochureStyle("brandbrochure")
+        } 
+    };
+
+    const changeBrochureStyle = () => {
+        if (brandbrochureStyle === "brandbrochure") {
+            setbrochureStyle("brandbrochureZoom");
+            setBlurStyle("blurOverlay-brand-blur");
+            setStyle("brandguide-hidden");
         }
-        
+        else {
+            setbrochureStyle("brandbrochure");
+            setBlurStyle("blurOverlay-brand");
+            setStyle("brandguide");
+        } 
     };
 
     return (
@@ -37,11 +52,12 @@ function BrandConcept(props) {
                 <h2>Finished Designs</h2>
                 <p>I stuck to the brand guidelines I created throughout this entire project. Below you can view each of the different pieces that made up this project from start to finish. </p>
                 <div className="brandguideSmall" onClick={changeStyle}/>              
+                <div className="brandbrochureSmall" onClick={changeStyle}/>              
             </div>
             <div className="imagegrid">
                 <div className="topgrid">
-                    <div className={brandguideStyle} onClick={changeStyle}/>              
-                    <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/7e5aad1792.html"></iframe>                
+                    <div className={brandguideStyle} onClick={changeStyle}/> 
+                    <div className={brandbrochureStyle} onClick={changeBrochureStyle}/>             
                 </div>
                 <div className="bottomgrid">
                     <iframe title="brandguide booklet" allowfullscreen="allowfullscreen" scrolling="no" className="iframe" src="https://heyzine.com/flip-book/4d9d8fe78f.html"></iframe>                

@@ -56,18 +56,18 @@
 
 .brandguide {
     cursor: zoom-in;
-    z-index: 15;
     height: auto;
     width:100%;
     background-image: url(./ProjectImages/brandguide.png);
     background-repeat: no-repeat;
     background-size: contain; 
     padding-top: 33.48%;
+    margin-right: 2.5%;
 }
 
 .brandguideZoom {
     cursor: zoom-out;
-    z-index: 15;
+    z-index: 20;
     transform: translate(50%,25%) scale(1.75);
     height: auto;
     width:100%;
@@ -82,6 +82,63 @@
     height: auto;
     width:100%;
     background-image: url(./ProjectImages/brandguide.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+    margin-top: 3%;
+    display: none;
+}
+
+.brandguide-hidden {
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandguide.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 33.48%;
+    margin-right: 2.5%;
+    opacity: 0;
+}
+
+.brandbrochure {
+    cursor: zoom-in;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandbrochure.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 33.48%;
+    margin-left: 2.5%;
+}
+
+.brandbrochure-hidden {
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandbrochure.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 33.48%;
+    margin-left: 2.5%;
+    opacity:0;
+}
+
+.brandbrochureZoom {
+    cursor: zoom-out;
+    z-index: 20;
+    transform: translate(-50%,25%) scale(1.75);
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandbrochure.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    padding-top: 66.67%;
+}
+
+.brandbrochureSmall {
+    z-index: 15;
+    height: auto;
+    width:100%;
+    background-image: url(./ProjectImages/brandbrochure.png);
     background-repeat: no-repeat;
     background-size: contain; 
     padding-top: 66.67%;
@@ -293,6 +350,7 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .bottomgrid{
@@ -344,13 +402,26 @@
         width: 50%;
         display: none;
     }
+    .brandbrochure {
+        max-height: 100%;
+        height: auto;
+        object-fit: contain;
+        width: 50%;
+        display: none;
+    }
     .brandguideSmall {
+        display: block;
+    }
+    .brandbrochureSmall {
         display: block;
     }
     .blurOverlay-brand-blur {
         display: none;
     }
     .brandguideZoom {
+        display: none;
+    }
+    .brandbrochureZoom {
         display: none;
     }
     .topgrid {
@@ -505,6 +576,17 @@
         display: none;
     }
     .brandguideSmall {
+        min-height: 100%;
+        height: auto;
+        object-fit: contain;
+        cursor: initial;
+        top:0;
+        bottom:0;
+    }
+    .brandbrochure {
+        display: none;
+    }
+    .brandbrochureSmall {
         min-height: 100%;
         height: auto;
         object-fit: contain;
